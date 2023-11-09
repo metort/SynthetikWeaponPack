@@ -1,0 +1,36 @@
+<Defs>
+  
+  <DamageDef ParentName="Bomb">
+    <defName>SynthetikPlasma</defName>
+	<label>higgs plasma</label>
+	<armorCategory>Heat</armorCategory>
+    <defaultDamage>30</defaultDamage>
+    <buildingDamageFactorImpassable>1.5</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>1</buildingDamageFactorPassable>
+	<explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+	<defaultArmorPenetration>0.35</defaultArmorPenetration>
+	<explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+    <explosionColorEdge>(0.6, 0.6, 0.8)</explosionColorEdge>
+    <soundExplosion>Synthetik_Plasma_Explosion</soundExplosion>
+  </DamageDef>
+  
+  
+  <DamageDef>
+    <defName>SynthetikUltraVelocity</defName>
+    <defaultArmorPenetration>1.5</defaultArmorPenetration>
+	<buildingDamageFactorImpassable>10</buildingDamageFactorImpassable>
+	<buildingDamageFactorPassable>3</buildingDamageFactorPassable>
+    <label>bullet</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been shot to death.</deathMessage>
+    <hediff>Gunshot</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+    <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+  </DamageDef>
+  
+</Defs>

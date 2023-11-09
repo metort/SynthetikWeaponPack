@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Defs>
+
+  <SoundDef>
+    <defName>Gladiator_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>8</maxVoices>  
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Gladiator_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30.70111~35.30627</volumeRange>      
+        <pitchRange>0.90976015~1.1769372</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Gladiator_Pickup</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Gladiator_Pickup</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>50.70111</min>        
+          <max>55.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.0</min>        
+          <max>1.1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SourDMR_Ding</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>8</maxVoices>
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ding_Small</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>20.70111</min>        
+          <max>25.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8</min>        
+          <max>1.2</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>SourDMR_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/SourDMR_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30.70111</min>        
+          <max>35.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9</min>        
+          <max>1.12</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>P9000_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>20</maxVoices>
+    <maxSimultaneous>20</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/P9000_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30.70111</min>        
+          <max>35.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.95</min>        
+          <max>1.02</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>P9000_Pickup</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/P9000_Pickup</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30.70111</min>        
+          <max>35.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9</min>        
+          <max>1.12</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>X512_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>5</maxVoices>
+    <maxSimultaneous>5</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/X512_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30.70111</min>        
+          <max>35.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.87</min>        
+          <max>1.19</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Liandry_Rail_Gun_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>5</maxVoices>
+    <maxSimultaneous>5</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Liandry_Rail_Gun_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>40.70111</min>        
+          <max>45.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.95</min>        
+          <max>1.09</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Synthetik_M32_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>20</maxVoices>
+    <maxSimultaneous>20</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/M32_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>40.70111</min>        
+          <max>45.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.92</min>        
+          <max>1.36</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Synthetik_Charge_Impaler</defName>
+    <sustain>true</sustain>	
+    <context>MapOnly</context>
+	<maxVoices>2</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+	<priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+	    <muteWhenPaused>True</muteWhenPaused>
+	    <tempoAffectedByGameSpeed>false</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Impaler_Charge_Temp</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>26.70111</min>        
+          <max>29.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.98</min>        
+          <max>1.1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Synthetik_Impaler_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>20</maxVoices>
+    <maxSimultaneous>20</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Impaler_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>40.70111</min>        
+          <max>45.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.92</min>        
+          <max>1.26</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Synthetik_Kaida_Medic_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>20</maxVoices>
+    <maxSimultaneous>20</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Kaida_Medic_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>32.70111</min>        
+          <max>37.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.98</min>        
+          <max>1.06</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Synthetik_Plasma_Explosion</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>20</maxVoices>
+    <maxSimultaneous>20</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Higs_Explosion</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.70111</min>        
+          <max>49.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.94</min>        
+          <max>1.32</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Synthetik_Higs_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>20</maxVoices>
+    <maxSimultaneous>20</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Higs_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.70111</min>        
+          <max>49.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.94</min>        
+          <max>1.32</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Synthetik_Nemesis_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+	<maxVoices>40</maxVoices>
+    <maxSimultaneous>40</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Gunshot_Nemesis_Complete</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>47.70111~52.30627</volumeRange>
+        <pitchRange>0.9~1.15</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Viciator_Gunshot</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>8</maxVoices>  
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Viciator_Gunshot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35.70111</min>        
+          <max>40.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.90976015</min>        
+          <max>1.1769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Viciator_Pickup</defName>  
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>8</maxVoices>  
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/Viciator_Pickup</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30.70111</min>        
+          <max>35.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.90976015</min>        
+          <max>1.1769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
